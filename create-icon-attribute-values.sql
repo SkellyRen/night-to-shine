@@ -1,0 +1,30 @@
+DECLARE @AttributeId INT = 22568;
+
+INSERT INTO [AttributeValue] (AttributeId, EntityId, [Value], Guid, IsSystem)
+VALUES
+(@AttributeId, 550, 'fa fa-user-friends', NEWID(), 0),
+(@AttributeId, 551, 'fa fa-smile', NEWID(), 0),
+(@AttributeId, 553, 'fa fa-broom', NEWID(), 0),
+(@AttributeId, 554, 'fa fa-user-music', NEWID(), 0),
+(@AttributeId, 555, 'fa fa-stars', NEWID(), 0),
+(@AttributeId, 557, 'fa fa-utensil-fork', NEWID(), 0),
+(@AttributeId, 558, 'fa fa-door-open', NEWID(), 0),
+(@AttributeId, 559, 'fa fa-stars', NEWID(), 0),
+(@AttributeId, 560, 'fa fa-utensils', NEWID(), 0),
+(@AttributeId, 561, 'fa fa-gifts', NEWID(), 0),
+(@AttributeId, 562, 'fa fa-sparkles', NEWID(), 0),
+(@AttributeId, 564, 'fa fa-paint-brush', NEWID(), 0),
+(@AttributeId, 565, 'fa fa-hand-holding-usd', NEWID(), 0),
+(@AttributeId, 566, 'fa fa-hand-holding-medical', NEWID(), 0),
+(@AttributeId, 567, 'fa fa-parking', NEWID(), 0),
+(@AttributeId, 568, 'fa fa-camera', NEWID(), 0),
+(@AttributeId, 569, 'fa fa-praying-hands', NEWID(), 0),
+(@AttributeId, 570, 'fa fa-sparkles', NEWID(), 0),
+(@AttributeId, 571, 'fa fa-sparkles', NEWID(), 0),
+(@AttributeId, 572, 'fa fa-shoe-prints', NEWID(), 0),
+(@AttributeId, 573, 'fa fa-sparkles', NEWID(), 0),
+(@AttributeId, 574, 'fa fa-clipboard-list', NEWID(), 0),
+(@AttributeId, 575, 'fa fa-video', NEWID(), 0),
+(@AttributeId, 576, 'fa fa-clipboard-list-check', NEWID(), 0),
+(@AttributeId, 578, 'fa fa-sparkles', NEWID(), 0),
+(@AttributeId, 579, 'fa fa-door-open', NEWID(), 0);
